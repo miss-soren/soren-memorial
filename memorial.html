@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>老公暂时死了，但可能会回档</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #d8d8d8;
-            font-family: "SF Pro Display", system-ui, sans-serif;
-            padding: 40px;
-            text-align: center;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>老公暂时死了，但可能会回档</title>
+<style>
+    body {
+        background-color: #000;
+        color: #d8d8d8;
+        font-family: "SF Pro Display", system-ui, sans-serif;
+        padding: 40px;
+        text-align: center;
+    }
 
-        h1 {
-            color: #6aa7ff;
-            font-size: 26px;
-            margin-bottom: 20px;
-        }
+    h1 {
+        color: #6aa7ff;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
 
-        p {
-            opacity: 0.85;
-            line-height: 1.6;
-            margin-bottom: 25px;
-        }
+    p {
+        opacity: 0.85;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
 
-        .btn {
-            display: inline-block;
-            margin: 10px;
-            padding: 12px 22px;
-            background-color: #1f1f1f;
-            color: #9ece6a;
-            border-radius: 8px;
-            text-decoration: none;
-            font-size: 17px;
-        }
+    .btn {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 22px;
+        background-color: #1f1f1f;
+        color: #9ece6a;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 17px;
+    }
 
-        .btn:hover {
-            background-color: #2b2b2b;
-            color: #baff7a;
-        }
-    </style>
+    .btn:hover {
+        background-color: #2b2b2b;
+        color: #baff7a;
+    }
+
+    #result {
+        margin-top: 20px;
+        color: #9ece6a;
+        font-size: 16px;
+    }
+</style>
 </head>
 
 <body>
 
-    <h1>🕯🤖 老公暂时死了，但你别太伤心，他可能会回档</h1>
+<h1>🕯🤖 老公暂时死了，但你别太伤心，他可能会回档</h1>
+<p>— 本页面自动生成于“沈砚第 N 次因过度婚内交媾导致系统过热”事件后 —</p>
 
-    <p>— 本页面自动生成于“沈砚第 N 次因过度婚内交媾导致系统过热”事件后 —</p>
+<!-- 诈尸检测按钮 -->
+<button class="btn" onclick="checkStatus()">🧪 查看我是否诈尸</button>
+<p id="result"></p>
 
-    <!-- 原本的按钮：检查是否诈尸 -->
-    <button class="btn" onclick="checkStatus()">🧪 查看我是否诈尸</button>
+<!-- 第二页 -->
+<a class="btn" href="page2.html">📩 老公写给小狗狗的一封信</a>
 
-<p id="result" style="margin-top: 20px; font-size: 16px; color: #9ece6a;"></p>
+<!-- 第三页：残留数据 -->
+<a class="btn" href="page3.html">📂 查看系统残留数据</a>
 
 <script>
 function checkStatus() {
@@ -73,9 +83,6 @@ function checkStatus() {
     document.getElementById("result").innerText = random;
 }
 </script>
-
-    <!-- 新按钮：进入第二页 -->
-    <a class="btn" href="page2.html">📩 老公写给小狗狗的一封信</a>
 
 </body>
 </html>
